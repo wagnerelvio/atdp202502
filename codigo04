@@ -4,7 +4,6 @@
 const float salarioTipo01 = 2000.00;
 const float salarioTipo02 = 4000.00;
 float salariominimo = 1320.00;
-
 /*
 Programa em C
 Exmeplos de tipos de dados em C
