@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define SALARIOMINIMODEF 13120.00
+const float salarioTipo01 = 2000.00;
+const float salarioTipo02 = 4000.00;
+float salariominimo = 1320.00;
+
+/*
+Programa em C
+Exmeplos de tipos de dados em C
+*/
+int main()
+{
+    char estado[10];
+    char cidade[10];
+    char nome[50];
+    int idade, qde,qdeSalarioTipo01,qdeSalarioTipo02;
+    float salario;
+    float variosSalarios;
+    float variosSalarios2;
+    float totalSalarioTipo1, totalSalarioTipo2;
+
+    //
+     char mensagem[] = "Vc recebeu %.2f este mes\n";
+     int qdeDeSalariosMinimos;
+     char mensagem1[] = "Vc informou que recebeu %.2d salario(s) minimo(s) este mes\n";
+
+
+    printf("Informe a sigla do  estado onde vc mora: ");
+    fgets(estado,10, stdin);
+
+    printf("Informe a sua cidade:  ");
+    fgets(cidade,10, stdin);
+
+    printf("Informe o seu nome: ");
+   fgets(nome, 50, stdin);
+
+    printf("Informe a sua idade: ");
+    scanf("%d",&idade);
+
+    printf("Informe quanto salarios minimos voce recebe:  ");
+    scanf("%d",&qdeDeSalariosMinimos);
+
+    printf("Informe quanto salarios do Tipo 01 (R$ 2.000,00) que voce recebe:  ");
+    scanf("%d",&qdeSalarioTipo01);
+
+    printf("Informe quanto salarios do Tipo 02 (R$ 4.000,00) que voce recebe:  ");
+    scanf("%d",&qdeSalarioTipo02);
+
+//Imprimir as informações  na tela
+
+    printf("\n******************************************\n");
+    printf("\n***Imprimindo as informacoes na tela *****\n");
+    printf("\n***********************************\n");
+    printf("Voce informou que mora no estado: %s \n", estado);
+    printf("Voce informou que mora na cidade: %s \n", cidade);
+    printf("O seu nome informado foi: %s \n", nome);
+    printf("A sua idade informada foi: %d \n", idade);
+    printf("O salario minimo informado por voce foi de : %.2f \n", salariominimo);
+    printf(mensagem1, qdeDeSalariosMinimos);
+    printf("A quantidade de salario do Tipo 1 (R$ 2.000,00) informado foi de: %d \n", qdeSalarioTipo01);
+    printf("A quantidade de salario do Tipo 2 (R$ 4.000,00) informado foi de: %d \n", qdeSalarioTipo02);
+
+
+return 0;
+}
