@@ -18,7 +18,7 @@ int main() {
    // Verifica o valor de delta
     if (delta > 0) {
         printf("\nHa duas raizes reais!\n");
-    } else if (delta = 0 ) {
+    } else if (delta == 0 ) {
         printf("\nHa apenas uma raiz!\n");
     } else {
         printf("\nNao ha raizes reais!\n");
