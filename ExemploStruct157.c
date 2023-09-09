@@ -30,7 +30,7 @@ int main()
         getchar();
     }
 
-    for (int i = 0; i < 5; i ++){
+    for (int i = 1; i < 5; i ++){
         printf("\n ********** Dados dos Alunos ************\n");
         printf("Matricula: %s \n", alunos[i].matricula);
         printf("Nome: %s \n", alunos[i].nome);
