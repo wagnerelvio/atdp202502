@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Emdereços das variaveis na memoria
+//Endereços das variaveis na memoria
 
 int main() {
     int idade = 20;
