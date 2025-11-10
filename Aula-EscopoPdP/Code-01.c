@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int global = 10; // Escopo global
 
 void funcao() {
